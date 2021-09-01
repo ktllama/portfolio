@@ -21,16 +21,21 @@ li.navbar{
 }
 
   @media only screen and (max-width: 768px) {
-li.navbar{
-display:none;
-}
+      
   }
 
 @media only screen and (max-device-width: 480px) {
-li.navbar{
-display:none;
+    ul.navbar{
+        display:hidden;
 }
+    li.navbar{
+        display:hidden;
     }
+    
+    img{
+        display:hidden;
+    }
+}
 
 
 
