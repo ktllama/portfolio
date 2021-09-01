@@ -35,6 +35,10 @@ li.navbar{
     img{
         display:hidden;
     }
+    
+    a.nav{
+        display:hidden;
+    }
 }
 
 
