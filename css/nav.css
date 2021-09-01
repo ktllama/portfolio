@@ -20,6 +20,24 @@ li.navbar{
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 }
 
+  @media only screen and (max-width: 768px) {
+li.navbar{
+    list-style-type:none;
+    margin: 2vh 2vw;
+    font-size:5em;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+  }
+
+@media only screen and (max-device-width: 480px) {
+li.navbar{
+    list-style-type:none;
+    margin: 2vh 2vw;
+    font-size:5em;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+    }
+
 
 
 h1{
