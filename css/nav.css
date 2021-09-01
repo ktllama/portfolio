@@ -193,6 +193,16 @@ body {
     }
   }
 
+@media only screen and (max-device-width: 480px) {
+    .leftside{
+      display:inline-block;
+    width:95%;
+    padding:2%;
+    Margin-left:3%;
+    margin-right:3%;
+    }
+    }
+
   .stickyright{
     position: -webkit-sticky; /* Safari & IE */
     position: sticky;
@@ -204,6 +214,15 @@ body {
 
 @media only screen and (max-width: 768px) {
   .stickyright{
+    position: relative;
+    display:inline-block;
+    margin-left:20%;
+    width:80%;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+      .stickyright{
     position: relative;
     display:inline-block;
     margin-left:20%;
