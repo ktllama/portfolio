@@ -21,28 +21,14 @@ li.navbar{
 }
 
   @media only screen and (max-width: 768px) {
-      ul.navbar{
-        display:hidden;
-}
-li.navbar{
-        display:hidden;
-    }
-    
-a.nav{
-        display:hidden;
-    }
+.navbar{
+    display:hidden;
+      }
   }
 
 @media only screen and (max-device-width: 480px) {
-ul.navbar{
-        display:hidden;
-}
-li.navbar{
-        display:hidden;
-    }
-    
-a.nav{
-        display:hidden;
+.navbar{
+    display:hidden;
     }
 }
 
