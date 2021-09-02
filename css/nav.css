@@ -187,7 +187,6 @@ body {
   .stickyright{
     position: -webkit-sticky; /* Safari & IE */
     position: sticky;
-    top:8%;
     right:8%;
     display:inline-block;
     width:30%;
@@ -202,13 +201,13 @@ body {
     margin-right:3%;
     }
 li.nav{
-          display:hidden;
+    display:none;
       }
 ul.nav{
-    display:hidden;
+    display:none;
       }
 a.nav{
-    display:hidden;}
+    display:none;}
     
  .stickyright{
     position: relative;
@@ -227,13 +226,13 @@ a.nav{
     margin-right:3%;
     }
 li.nav{
-          display:hidden;
+    display:none;
       }
 ul.nav{
-    display:hidden;
+    display:none;
       }
 a.nav{
-    display:hidden;}
+    display:none;}
       
   .stickyright{
     position: relative;
