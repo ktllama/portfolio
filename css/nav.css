@@ -202,11 +202,13 @@ body {
     margin-right:3%;
     }
 li.nav{
-          display:none;
+          display:hidden;
       }
 ul.nav{
-    display:none;
+    display:hidden;
       }
+a.nav{
+    display:hidden;}
     
  .stickyright{
     position: relative;
@@ -225,11 +227,13 @@ ul.nav{
     margin-right:3%;
     }
 li.nav{
-          display:none;
+          display:hidden;
       }
 ul.nav{
-    display:none;
+    display:hidden;
       }
+a.nav{
+    display:hidden;}
       
   .stickyright{
     position: relative;
