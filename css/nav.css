@@ -32,6 +32,7 @@ h1{
 
 h2{
 color:white;
+  background-color: white;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 2em;
 text-transform: uppercase;
@@ -184,7 +185,7 @@ background: linear-gradient(180deg, black 40%, #2d174d 50%, #613e55 55%, #96645d
 
 
 .stickyright{
-   position: -webkit-sticky; /* for safari */
+   position: -webkit-sticky; /* for safari
    position: sticky;
    width: 30%;
    float: right;
