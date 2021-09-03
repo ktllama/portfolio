@@ -183,12 +183,13 @@ background: linear-gradient(180deg, black 40%, #2d174d 50%, #613e55 55%, #96645d
 }
 
 
-.stickyright{
-  position: -webkit-sticky; /* Safari & IE */
-  position: sticky;
-  right:8%;
-  display:inline-block;
-  width:30%;
+.sticky{
+   position: -webkit-sticky; /* for safari */
+   position: sticky;
+   width: 30%;
+   float: right;
+   top: 10px;
+  right:10px;
 }
 
 @media only screen and (max-device-width: 480px) {
