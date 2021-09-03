@@ -188,7 +188,7 @@ background: linear-gradient(180deg, black 40%, #2d174d 50%, #613e55 55%, #96645d
    position: -webkit-sticky; /* for safari */
    position: sticky;
    width: 30%;
-  margin-top:20%;
+  margin-top:20px;
    float: right;
   top:20%;
   right:5%;
@@ -215,8 +215,8 @@ a.nav{
 .stickyright{
   position: relative;
   display:inline-block;
-  margin-left:3%;
-  margin-right:3%;
+  margin-left:5%;
+  margin-right:5%;
   width:90%;
 }
 }
@@ -241,8 +241,8 @@ a.nav{
 .stickyright{
   position: relative;
   display:inline-block;
-  margin-left:3%;
-  margin-right:3%;
+  margin-left:5%;
+  margin-right:5%;
   width:90%;
 }
 }
