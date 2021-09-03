@@ -188,6 +188,7 @@ background: linear-gradient(180deg, black 40%, #2d174d 50%, #613e55 55%, #96645d
    position: -webkit-sticky; /* for safari */
    position: sticky;
    width: 30%;
+  margin-top:20%;
    float: right;
   top:20%;
   right:5%;
