@@ -188,7 +188,7 @@ background: linear-gradient(180deg, black 40%, #2d174d 50%, #613e55 55%, #96645d
   position: sticky;
   right:8%;
   display:inline-block;
-  width:100%;
+  width:30%;
 }
 
 @media only screen and (max-device-width: 480px) {
