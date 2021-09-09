@@ -86,79 +86,10 @@ display: table;
 background: linear-gradient(180deg, black 40%, #2d174d 50%, #613e55 55%, #96645d 60%, #ca8b65 65%, #ffb16d 70%);
 }
 
-/***********************************************************************************************************/
-/***********************************************************************************************************/
-/*KT LLAMA NEON FONT*/
-/***********************************************************************************************************/
-/***********************************************************************************************************/
 @font-face {
   font-family: clipneon;
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/clip.ttf);
 }
-
-.container {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.neon {
-  font-family: clipneon;
-  color: #FB4264;
-  font-size: 9vw;
-  line-height: 9vw;
-  text-shadow: 0 0 3vw #F40A35;
-}
-
-.flux {
-  font-family: clipneon;
-  color: #426DFB;
-  font-size: 9vw;
-  line-height: 9vw;
-  text-shadow: 0 0 3vw #2356FF;
-  text-align:center;
-}
-
-.neon {
-  animation: neon 1s ease infinite;
-  -moz-animation: neon 1s ease infinite;
-  -webkit-animation: neon 1s ease infinite;
-}
-
-@keyframes neon {
-  0%,
-  100% {
-    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
-    color: #FED128;
-  }
-  50% {
-    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
-    color: #806914;
-  }
-}
-
-.flux {
-  animation: flux 2s linear infinite;
-  -moz-animation: flux 2s linear infinite;
-  -webkit-animation: flux 2s linear infinite;
-  -o-animation: flux 2s linear infinite;
-}
-
-@keyframes flux {
-  0%,
-  100% {
-    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
-    color: #28D7FE;
-  }
-  50% {
-    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
-    color: #146C80;
-  }
-}
-
-/***********************************************************************************************************/
-/***********************************************************************************************************/
-/************** skills********************/
 
 #skills{
   font-size:1em;
@@ -198,25 +129,16 @@ background: linear-gradient(180deg, black 40%, #2d174d 50%, #613e55 55%, #96645d
 @media only screen and (max-device-width: 480px) {
   .leftside{
     display:inline-block;
-  width:95%;
+  width:90%;
   padding:2%;
   Margin-left:3%;
   margin-right:3%;
   }
-li.nav{
-  display:none;
-    }
-ul.nav{
-  display:none;
-    }
-a.nav{
-  display:none;}
   
 .stickyright{
   position: relative;
   display:inline-block;
-  margin-left:5%;
-  margin-right:5%;
+  margin:auto;
   width:90%;
 }
 }
@@ -224,25 +146,16 @@ a.nav{
 @media only screen and (max-width: 768px) {
   .leftside{
     display:inline-block;
-  width:95%;
+  width:90%;
   padding:2%;
   Margin-left:3%;
   margin-right:3%;
   }
-li.nav{
-  display:none;
-    }
-ul.nav{
-  display:none;
-    }
-a.nav{
-  display:none;}
     
 .stickyright{
   position: relative;
   display:inline-block;
-  margin-left:5%;
-  margin-right:5%;
+  margin:auto;
   width:90%;
 }
 }
