@@ -43,6 +43,10 @@ font-size:20px;
 text-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #b4e600, 0 0 5px #b4e600, 0 0 6px #b4e600, 0 0 7px #b4e600, 0 0 10px #b4e600;
 }
 
+h1{
+  text-align:center;
+  margin:auto;}
+
 h3{
 font-family: clipneon;
 white-space: normal;
