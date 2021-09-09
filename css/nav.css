@@ -208,5 +208,6 @@ svg {
   flex: 1 1 auto;
   max-width: 90vw;
   text-align:center;
-  margin:auto;
+  margin-left:20%;
+  margin-right:20%;
 }
