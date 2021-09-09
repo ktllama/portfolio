@@ -135,6 +135,14 @@ background: linear-gradient(180deg, black 40%, #2d174d 50%, #613e55 55%, #96645d
   margin-right:3%;
   }
   
+    p{
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+  margin:2%;
+    font-size:1em;
+}
+  
 .stickyright{
   position: relative;
   display:inline-block;
@@ -151,6 +159,14 @@ background: linear-gradient(180deg, black 40%, #2d174d 50%, #613e55 55%, #96645d
   Margin-left:3%;
   margin-right:3%;
   }
+  
+  p{
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+  margin:2%;
+    font-size:1em;
+}
     
 .stickyright{
   position: relative;
