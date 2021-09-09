@@ -275,3 +275,7 @@ img footer{
 width:100vh;
 }
 
+svg {
+  flex: 1 1 auto;
+  max-width: 90vw;
+}
