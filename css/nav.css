@@ -43,7 +43,9 @@ font-size:20px;
 text-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #b4e600, 0 0 5px #b4e600, 0 0 6px #b4e600, 0 0 7px #b4e600, 0 0 10px #b4e600;
 }
 
-h1{
+.stars{
+  width:100vw;
+  border:white 2px solid;
   text-align:center;
   margin:auto;}
 
