@@ -43,12 +43,6 @@ font-size:20px;
 text-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #b4e600, 0 0 5px #b4e600, 0 0 6px #b4e600, 0 0 7px #b4e600, 0 0 10px #b4e600;
 }
 
-.stars{
-  width:100vw;
-  border:white 2px solid;
-  text-align:center;
-  margin:auto;}
-
 h3{
 font-family: clipneon;
 white-space: normal;
@@ -285,5 +279,5 @@ svg {
   flex: 1 1 auto;
   max-width: 90vw;
   text-align:center;
-  margin:auto;
+  margin-left:30%;
 }
